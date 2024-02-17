@@ -244,7 +244,8 @@ public class DataUtilitiesTest extends DataUtilities {
     }
 	
     /**
-	 * This test covers an out of range value below the lower boundary for the exampleRange for contains() 
+	 * This test covers the throw of an InvalidParameterException with a null input value
+	 * for the method getCumulativePercentages()
 	 */
     @Test
     public void testInvalidParameterExceptionThrownWithNullValue() {
